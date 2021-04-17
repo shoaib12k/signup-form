@@ -22,7 +22,7 @@ form.addEventListener('submit',e=>{
     if(email===''){
         addError('email','Email Address is required');
     }else if(!isValid(email)){
-        addError('email', 'Email is not valid');
+        addError('email', 'Looks like this is not an email');
     }else{
         removeError('email');
     }
